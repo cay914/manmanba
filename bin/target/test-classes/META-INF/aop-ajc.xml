@@ -1,0 +1,9 @@
+<aspectj>
+<aspects>
+<aspect name="com.codebattery.mmb.domain.SysUserIntegrationTest_Roo_Configurable"/>
+<aspect name="com.codebattery.mmb.domain.SysUserDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.codebattery.mmb.domain.SysUserDataOnDemand_Roo_Configurable"/>
+<aspect name="com.codebattery.mmb.domain.SysUserIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+

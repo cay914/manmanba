@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.codebattery.mmb.domain.SysUserDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.codebattery.mmb.domain.SysUserIntegrationTest_Roo_Configurable"/>
+<aspect name="com.codebattery.mmb.model.CourseIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.codebattery.mmb.domain.SysUserDataOnDemand_Roo_Configurable"/>
+<aspect name="com.codebattery.mmb.model.CourseDataOnDemand_Roo_Configurable"/>
+<aspect name="com.codebattery.mmb.domain.SysUserIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.codebattery.mmb.model.CourseIntegrationTest_Roo_Configurable"/>
+<aspect name="com.codebattery.mmb.model.CourseDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+

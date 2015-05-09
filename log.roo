@@ -1,0 +1,33 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-04-28 20:51:52
+project --topLevelPackage com.codebattery.mmb --projectName manmanba
+logging setup --level WARN
+jpa setup --provider ECLIPSELINK --database MYSQL --hostName localhost --databaseName manmanba --userName root --password 091423 --persistenceUnit mmbPU --transactionManager mmbTM
+web mvc setup
+web mvc all --package ~.web
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-04-28 21:25:40
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-04-28 21:44:59
+hint
+// [failed] entity jpa --class ~.domain.User --testAutomatically
+entity jpa --class ~.domain.SysUser --testAutomatically
+repository jpa --interface ~.dao.SysUserDao --entity ~.domain.SysUser
+hint
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-04-28 22:33:00
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-04-28 22:51:36
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-04-28 22:54:11
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-04-28 22:59:41
+jpa setup --provider HIBERNATE --database MYSQL --hostName localhost --databaseName manmanba --userName root --password 091423 --persistenceUnit mmb --transactionManager mmbTM
+entity jpa --class ~.model.Course --testAutomatically
+field string --fieldName name
+field number --fieldName listPrice --type java.math.BigDecimal
+field string --fieldName description
+field number --fieldName maxmumCapacity --type java.util.Date
+enum type --class ~.enumed.CourseTypeEnum
+enum constant --name SEMINAR
+enum constant --name CREDIT
+enum constant --name CONTINUING_EDUCATION
+focus --class ~.model.Course
+field enum --fieldName courseType --type ~.model.CourseTypeEnum --enumType STRING
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-04-28 23:35:42
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-04-28 23:36:08
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-04-29 08:24:07

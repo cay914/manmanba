@@ -1,0 +1,16 @@
+<aspectj>
+<aspects>
+<aspect name="com.codebattery.mmb.model.Course_Roo_ToString"/>
+<aspect name="com.codebattery.mmb.model.Course_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.codebattery.mmb.domain.SysUser_Roo_Configurable"/>
+<aspect name="com.codebattery.mmb.model.Course_Roo_Configurable"/>
+<aspect name="com.codebattery.mmb.domain.SysUser_Roo_ToString"/>
+<aspect name="com.codebattery.mmb.domain.SysUser_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.codebattery.mmb.dao.SysUserDao_Roo_Jpa_Repository"/>
+<aspect name="com.codebattery.mmb.domain.SysUser_Roo_Jpa_Entity"/>
+<aspect name="com.codebattery.mmb.domain.SysUser_Roo_JavaBean"/>
+<aspect name="com.codebattery.mmb.model.Course_Roo_Jpa_Entity"/>
+<aspect name="com.codebattery.mmb.model.Course_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+
